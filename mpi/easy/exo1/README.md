@@ -15,3 +15,13 @@ Processor 1 - Hello World\
 Processor 2 - Hello World\
 Processor 3 - Hello World\
 Processor 4 - Hello World
+
+Résultat:
+
+Number of processors: 6
+Processor 4 - Hello World
+Processor 5 - Hello World
+Processor 0 - Hello World
+Processor 1 - Hello World
+Processor 2 - Hello World
+Processor 3 - Hello World
