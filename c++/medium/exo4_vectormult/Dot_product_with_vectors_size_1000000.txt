@@ -1,2 +1,0 @@
-Produit scalaire: -1613107711
-Duration of the dot product: 0 min: 9 s: 439 ms: 
