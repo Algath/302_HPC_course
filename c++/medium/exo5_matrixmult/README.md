@@ -2,7 +2,7 @@
 
 Dans cet exercice, vous allez écrire un programme en C++ qui calcule le produit matriciel de deux matrices carrées de grande taille. Chaque matrice doit être remplie avec des valeurs aléatoires.
 
-Chaque matrice doit être stockée sous la forme d’un tableau à une dimension et non d’un tableau à deux dimensions. Les lignes de la matrice sont rangées les unes à la suite des autres : pour une matrice de taille $n \times m$, l’élément situé à la ligne $i$ et à la colonne $j$ se trouve à l’indice $i \times m + j$ du tableau.
+Chaque matrice doit être stockée sous la forme d’un tableau à une dimension et non d’un tableau à deux dimensions. Les lignes de la matrice sont rangées les unes à la suite des autres : pour une matrice de taille $n \times m$, l’élément situé à la ligne $i$ et à la colonne $j$ se trouve à l’indice $i \times m + j$ du tableau.(end-sta)
 
 L’objectif est de tester les performances du programme en fonction de la taille des matrices. Vous devrez mesurer le temps d’exécution pour différentes tailles : $500 \times 500$, $1000 \times 1000$ et $2000 \times 2000$. Chronométrez uniquement le calcul du produit matriciel, sans inclure l’allocation et le remplissage des matrices, et affichez le temps mesuré en millisecondes.
 

@@ -6,18 +6,16 @@
 using namespace std;
 using namespace std::chrono;
 
-int main() {
-    string file;
+int main(int argc, char* argv[]) {
     string myText;
 
     auto start = high_resolution_clock::now();
 
     int count = 0;
 
-    cout << "File path: ";
-    cin >> file;
+    cout << "File path: " << argv[1];
 
-    ifstream MyReadFile(file);
+    ifstream MyReadFile(argv[1]);
 
     if (MyReadFile.is_open()) {
         while (count < 15 && getline (MyReadFile, myText)){

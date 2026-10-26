@@ -1,5 +1,5 @@
 run: seq
-	./run
+	./run 2000
 
 seq:
 	g++ main.cpp -o run
