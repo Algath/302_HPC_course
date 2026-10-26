@@ -1,13 +1,21 @@
-# Exercice 2 
+# Exercice 2
 
-Dans cet exercice, vous allez modifier votre premier progranmme parallèle afin d'afficher les informations des processeurs dans l'ordre croissant. Pour cela, vous allez utiliser MPI_Barrier.
+Dans cet exercice, vous allez modifier votre premier programme parallèle afin que les processus affichent leur message dans l’ordre croissant de leur rang. Pour cela, vous allez utiliser **MPI_Barrier**.
 
-Exemple de résultat avec 6 processeurs:
+**MPI_Barrier** est une opération collective : chaque processus qui l’appelle est bloqué jusqu’à ce que tous les processus l’aient appelée à leur tour. Tous les processus doivent donc l’appeler le même nombre de fois.
 
-Number of processors: 6\
-Processor 0 - Hello World\
-Processor 1 - Hello World\
-Processor 2 - Hello World\
-Processor 3 - Hello World\
-Processor 4 - Hello World\
+Exemple de résultat avec 6 processus :
+
+```
+Number of processors: 6
+Processor 0 - Hello World
+Processor 1 - Hello World
+Processor 2 - Hello World
+Processor 3 - Hello World
+Processor 4 - Hello World
 Processor 5 - Hello World
+```
+
+## Question
+
+Lancez votre programme plusieurs fois. Est-ce que **MPI_Barrier** permet dans tous les cas d’afficher les messages dans l’ordre ? Pourquoi ?
